@@ -12,15 +12,17 @@ public class Product {
     private int id;
     private String nome;
     private float price;
+    private String add_date;
     private byte[] image;
 
     public Product() {
     }
 
-    public Product(int id, String nome, float price, byte[] image) {
+    public Product(int id, String nome, float price, String add_date, byte[] image) {
         this.id = id;
         this.nome = nome;
         this.price = price;
+        this.add_date = add_date;
         this.image = image;
     }
 
@@ -48,6 +50,14 @@ public class Product {
         this.price = price;
     }
 
+    public String getAdd_date() {
+        return add_date;
+    }
+
+    public void setAdd_date(String add_date) {
+        this.add_date = add_date;
+    }
+    
     public byte[] getImage() {
         return image;
     }
