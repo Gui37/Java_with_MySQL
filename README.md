@@ -1,6 +1,6 @@
 # Java_with_MySQL
 
-This project is about crud operations using java and MySQL
+This project is about CRUD operations using Java and MySQL
 
 ## Important
-This project uses old java API, meaning: no Lambda, no anonymous functions and etc.
+This project uses old Java API, meaning: no Lambda, no anonymous functions and etc.
